@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<style>
+body {
+	background-color:#C33;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+form {
+	text-align:center;
+	font-size:24px;
+	color:#CCC;
+}
+.box {
+	padding:10%;
+	color:#FFF;
+}
+</style>
+<body>
+
+<div ng-app="">
+  <form>
+    Check the box to show the content:
+    <input type="checkbox" ng-model="myVar">
+  </form>
+  <div ng-show="myVar">
+  <div class="box">
+  <h1> Heading of the content </h1>
+  <p> Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph. Here will be the paragraph.</p>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
